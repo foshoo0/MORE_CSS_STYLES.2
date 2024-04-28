@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+}
+.box1{
+    width: 500px;
+    height: 450px;
+    border: 2px solid red;
+    background-color: rgb(252, 125, 125);
+    position:absolute;
+    top: 50px;
+    left: 300px;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
+.box2{
+    width: 500px;
+    height: 450px;
+    border: 2px solid rgb(4, 163, 17);
+    background-color: rgb(126, 255, 143);
+    position:absolute;
+    top: 50px;
+    left: 1000px;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
